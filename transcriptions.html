@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transction</title>
+    <style>
+        h1{
+            text-align: center;
+            color: cornflowerblue;
+            text-decoration: underline;
+        }
+        .parent{
+            width: 100px;
+            height: 100px;
+            background: red;
+            margin-left: 700px;
+            transition:width 1s,background 1s;
+        }
+        .parent:hover{
+            background-color: yellow;
+            width: 200px;
+        }
+        .img{width: 100px;
+             height: 100px;
+             transform: width 1s,background 1s;
+
+        }
+        img:hover{
+            width: 200px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1> CSS Transction</h1>
+    <div class="parent"></div>
+    <div class="child">
+       <img src="https://static.vecteezy.com/system/resources/thumbnails/053/733/179/small_2x/every-detail-of-a-sleek-modern-car-captured-in-close-up-photo.jpg">
+    </div>
+</body>
+</html>
